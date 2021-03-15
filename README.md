@@ -19,3 +19,4 @@
 };
 5. petalinux-build
 6. cd images/linux --> petalinux-package --boot --fsbl zynqmp_fsbl.elf --fpga system.bit --u-boot
+7. copy BOOT.BIN image.ub system.dtb to SDCARD
