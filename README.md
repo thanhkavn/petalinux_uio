@@ -17,3 +17,5 @@
 &axi_gpio_0 {
     compatible = "generic-uio";
 };
+5. petalinux-build
+6. cd images/linux --> petalinux-package --boot --fsbl zynqmp_fsbl.elf --fpga system.bit --u-boot
